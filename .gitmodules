@@ -1,0 +1,8 @@
+[submodule "cpp/extern/pybind11"]
+	path = cpp/extern/pybind11
+	url = ../../pybind/pybind11
+	branch = stable
+[submodule "cuda/extern/pybind11"]
+	path = cuda/extern/pybind11
+	url = ../../pybind/pybind11
+	branch = stable
