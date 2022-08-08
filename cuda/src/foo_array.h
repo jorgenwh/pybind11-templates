@@ -3,7 +3,10 @@
 
 #include <iostream>
 
-#include "mat_add_one.h"
+#include <cuda.h>
+#include <cuda_runtime.h>
+
+#include "foo_functions.h"
 
 class FooArray {
 public:
@@ -11,11 +14,18 @@ public:
   ~FooArray();
 
   void print();
-  void add_one();
+  void increment();
+
+  void to_device();
+  void to_host();
 
 private:
   int size_m;
-  float *data_m;
+
+  float *h_data_m;
+  float *d_data_m;
+
+  bool on_device_m;
 };
 
 #endif // FOO_ARRAY_H_
