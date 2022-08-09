@@ -1,21 +1,17 @@
 cmake_minimum_required(VERSION 3.16)
-project(foo LANGUAGES CXX CUDA)
+project(foo)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "-O3")
 
-set(CMAKE_CUDA_STANDARD 14)
-set(CMAKE_CUDA_FLAGS "-O3")
-
 add_subdirectory(extern/pybind11)
 
 set(SOURCES ${SOURCES}
-  src/foo_functions.cu
-  src/foo_array.cu
+  src/foo_functions.cpp
 )
 
 set(BINDINGS
-  src/module.cu
+  src/module.cpp
 )
 
 add_library(foo MODULE "${SOURCES}" "${BINDINGS}")
