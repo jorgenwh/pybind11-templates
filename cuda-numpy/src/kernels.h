@@ -6,7 +6,7 @@
 
 #include <cmath>
 
-#define BLOCK_SIZE 256
+#define BLOCK_SIZE 512
 
 void increment_array(float *data, size_t size, float value);
 void sigmoid_array(float *data, size_t size);
