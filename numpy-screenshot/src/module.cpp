@@ -9,5 +9,5 @@ namespace py = pybind11;
 PYBIND11_MODULE(foo, handle) {
   handle.doc() = "Documentation for the foo module";
 
-  handle.def("screenshot", &screenshot, py::arg("scale_factor") = 1.0f, py::return_value_policy::take_ownership);
+  handle.def("screenshot", &screenshot, py::return_value_policy::take_ownership);
 }
