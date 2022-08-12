@@ -12,6 +12,6 @@
 
 namespace py = pybind11;
 
-py::array_t<uint8_t> screenshot();
+py::array_t<uint8_t> screenshot(float scale_factor);
 
 #endif // SCREENSHOT_H_
