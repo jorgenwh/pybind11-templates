@@ -1,0 +1,5 @@
+/home/jorgen/projects/pybind11-templates/numpy/temp/CMakeFiles/rebuild_cache.dir
+/home/jorgen/projects/pybind11-templates/numpy/temp/CMakeFiles/edit_cache.dir
+/home/jorgen/projects/pybind11-templates/numpy/temp/CMakeFiles/foo.dir
+/home/jorgen/projects/pybind11-templates/numpy/temp/extern/pybind11/CMakeFiles/rebuild_cache.dir
+/home/jorgen/projects/pybind11-templates/numpy/temp/extern/pybind11/CMakeFiles/edit_cache.dir

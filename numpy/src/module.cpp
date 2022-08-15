@@ -25,4 +25,10 @@ PYBIND11_MODULE(foo, handle) {
       py::array_t<float> arr = py::array_t<float>(arr_shape);
       return arr;
   });
+
+  handle.def("transpose_np_array", [](py::array_t<float> &arr) {
+      py::module_ np = py::module_::import("numpy");
+      py::array_t<float> arrT = np.attr("transpose")(arr);
+      return arrT;
+  });
 }

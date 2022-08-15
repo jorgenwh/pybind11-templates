@@ -33,4 +33,3 @@ py::array_t<float> &foo_increment_arr(py::array_t<float> &arr) {
 
   return arr;
 }
-
