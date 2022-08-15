@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -O3  -shared  -o foo.cpython-38-x86_64-linux-gnu.so CMakeFiles/foo.dir/src/foo_functions.cpp.o CMakeFiles/foo.dir/src/module.cpp.o 
