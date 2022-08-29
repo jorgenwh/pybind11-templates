@@ -1,0 +1,8 @@
+if [ ! -d temp ]; then
+  printf "Creating dir\n"
+  mkdir temp
+fi
+
+cd temp && cmake .. && make && cd ..
+printf "\n------ PROGRAM OUTPUT: ------\n"
+./temp/foo

@@ -307,6 +307,10 @@ foo_functions.h
 /home/jorgen/projects/pybind11-templates/numpy/src/foo_functions.h
 iostream
 -
+stdio.h
+-
+assert.h
+-
 pybind11/pybind11.h
 -
 pybind11/stl.h

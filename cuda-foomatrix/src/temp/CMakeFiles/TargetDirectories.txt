@@ -1,0 +1,3 @@
+/home/jorgen/projects/pybind11-templates/cuda-foomatrix/src/temp/CMakeFiles/rebuild_cache.dir
+/home/jorgen/projects/pybind11-templates/cuda-foomatrix/src/temp/CMakeFiles/edit_cache.dir
+/home/jorgen/projects/pybind11-templates/cuda-foomatrix/src/temp/CMakeFiles/foo.dir

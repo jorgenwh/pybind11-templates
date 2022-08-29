@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/foo.dir/main.cpp.o CMakeFiles/foo.dir/device_kernels.cu.o CMakeFiles/foo.dir/foo_matrix.cu.o CMakeFiles/foo.dir/host_kernels.cpp.o  -o foo   -L/usr/lib/x86_64-linux-gnu/stubs  -L/usr/lib/gcc/x86_64-linux-gnu/8  -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

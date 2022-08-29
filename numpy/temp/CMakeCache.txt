@@ -292,7 +292,7 @@ PYBIND11_PYTHON_VERSION:STRING=
 PYBIND11_TEST:BOOL=OFF
 
 //Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
+PYTHON_EXECUTABLE:FILEPATH=/home/jorgen/projects/pybind11-templates/cpp/venv/bin/python
 
 //Path to a library.
 PYTHON_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpython3.8.so
@@ -490,9 +490,9 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding PYTHON
-FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=/usr/bin/python33.8.10
+FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=/home/jorgen/projects/pybind11-templates/cpp/venv/bin/python3.8.10
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.8.10(3.6)]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/home/jorgen/projects/pybind11-templates/cpp/venv/bin/python][v3.8.10(3.6)]
 //Test HAS_FLTO
 HAS_FLTO:INTERNAL=1
 PYBIND11_INCLUDE_DIR:INTERNAL=/home/jorgen/projects/pybind11-templates/numpy/extern/pybind11/include

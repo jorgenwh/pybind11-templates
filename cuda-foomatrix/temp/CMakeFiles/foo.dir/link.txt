@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3  -shared  -o foo.cpython-38-x86_64-linux-gnu.so CMakeFiles/foo.dir/src/foo_matrix.cu.o CMakeFiles/foo.dir/src/host_kernels.cpp.o CMakeFiles/foo.dir/src/device_kernels.cu.o CMakeFiles/foo.dir/src/module.cpp.o   -L/usr/lib/x86_64-linux-gnu/stubs  -L/usr/lib/gcc/x86_64-linux-gnu/8  -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

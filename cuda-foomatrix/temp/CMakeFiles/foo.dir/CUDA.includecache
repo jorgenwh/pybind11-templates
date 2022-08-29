@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jorgen/projects/pybind11-templates/cuda-foomatrix/src/device_kernels.h
+cuda.h
+-
+cuda_runtime.h
+-
+
+/home/jorgen/projects/pybind11-templates/cuda-foomatrix/src/foo_matrix.cu
+string
+-
+assert.h
+-
+iostream
+-
+cuda.h
+-
+cuda_runtime.h
+-
+sstream
+-
+foo_matrix.h
+/home/jorgen/projects/pybind11-templates/cuda-foomatrix/src/foo_matrix.h
+host_kernels.h
+/home/jorgen/projects/pybind11-templates/cuda-foomatrix/src/host_kernels.h
+device_kernels.h
+/home/jorgen/projects/pybind11-templates/cuda-foomatrix/src/device_kernels.h
+
+/home/jorgen/projects/pybind11-templates/cuda-foomatrix/src/foo_matrix.h
+string
+-
+assert.h
+-
+host_kernels.h
+/home/jorgen/projects/pybind11-templates/cuda-foomatrix/src/host_kernels.h
+device_kernels.h
+/home/jorgen/projects/pybind11-templates/cuda-foomatrix/src/device_kernels.h
+
+/home/jorgen/projects/pybind11-templates/cuda-foomatrix/src/host_kernels.h
+
